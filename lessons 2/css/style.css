@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 body {
 	margin: 0;
 	padding-top:0;
@@ -19,7 +19,6 @@ body {
   
 }	
 .top_line {
-	
 	background-color: #2ecc71;
 	background-position: top_line;
 	width: 100%;
@@ -174,34 +173,4 @@ body {
 	height: 130px;
 	float: left;
 	top: 1817px;
-=======
-body{
-	margin: 0;
-	}
-.header {
-    width: 100%;
-	height: 30%;
 }
-.label_notify {
-  color: rgb(255, 255, 255);
-  line-height: 0.333;
-  text-align: left;
-  position: absolute;
-  left: 320px;
-  top: 145px;
-  width: 180;
-  height: 80;
-}
-#a_great{
-  font-size: 21px;
-  font-family: "pt sans";
-  color: rgb(255, 255, 255);
-  line-height: 1.5;
-  text-align: left;
-  position: absolute;
-  top: 70px;
-  width: 450px;
-  height: 100px;
-}
-
->>>>>>> 9e4e7224ba231ffa994bac837e50d9f99571fd86
