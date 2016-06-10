@@ -1,44 +1,43 @@
 // exercise 1
-
 /*
 function animals(heads, legs){
-	for ( var i = 0; i <= heads; i++) {
-    var Chickens =(4 * heads - legs) / 2;
-};
-	for ( var i = 0; i <= heads; i++) {
-    var Cows = heads - Chickens;
-};
-    return [Chickens, Cows];
+var Chickens =(4 * heads - legs) / 2;
+var Cows = heads - Chickens;
+ if ( Chickens < 0){
+	 alert ('Ð§Ð¸ÑÐ»Ð¾ Ð¾Ñ‚Ñ€Ð¸Ñ†Ð°Ñ‚ÐµÐ»ÑŒÐ½Ð¾Ðµ');
+ } else if ( Cows < 0){
+	 alert ('Ð§Ð¸ÑÐ»Ð¾ Ð¾Ñ‚Ñ€Ð¸Ñ†Ð°Ñ‚ÐµÐ»ÑŒÐ½Ð¾Ðµ');
+ } else {
+	 alert ('Ok');
+ }
+ return [Chickens, Cows]
 }
-    console.log(animals(20,60));
+console.log(animals(72, 200));
 */
 
 // exercise 2
 
-/*function howManyAnimals(number){
-	var number = [1,2,3,4,5];
-	number[100]= 101;
-	var reaction = ["×åãî òàê ìàëî?", "Áîëåå ÷åì äîñòàòî÷íî", "Ïî÷åìó èõ òàê ìíîãî", "Îãî, 101 äàëìàòèíåö!"];
-	for ( var i =0; i <=10; i++) {
-	var respond = reaction[0];	
+/*
+function howManyAnimals(number){
+	var reaction = ["Ð§ÐµÐ³Ð¾ Ñ‚Ð°Ðº Ð¼Ð°Ð»Ð¾?", "Ð‘Ð¾Ð»ÐµÐµ Ñ‡ÐµÐ¼ Ð´Ð¾ÑÑ‚Ð°Ñ‚Ð¾Ñ‡Ð½Ð¾", "ÐŸÐ¾Ñ‡ÐµÐ¼Ñƒ Ð¸Ñ… Ñ‚Ð°Ðº Ð¼Ð½Ð¾Ð³Ð¾", "ÐžÐ³Ð¾, 101 Ð´Ð°Ð»Ð¼Ð°Ñ‚Ð¸Ð½ÐµÑ†!"];
+	if (number <= 10) {
+		console.log (reaction[0]);
+	} else if (number <= 50){
+		console.log (reaction[1]);
+	} else if (number == 101) {
+		console.log (reaction[3]);
+	} else {
+		console.log(reaction[2]);
 	}
-    for ( var i =0; i <=50; i++) {
-	var respond = reaction[1];	
-	}
-	for ( var i =0; i <=100; i++) {
-	var respond = reaction[2];	
-	}
-	for ( var i=0;i == 101; i++) {
-	var respond = reaction[3];
-	}	
-	return respond
-};
-    
-    console.log(howManyAnimals(16));*/
+	return number
+}	
+	console.log(howManyAnimals(101));
+*/
 	
 // exercise 3
 
-	/*var num = 1;
+	/*
+	var num = 1;
 for ( ; num < 101; num++ ) {
     if ( num % 5 === 0 && num % 3 === 0 ){
       console.log( num,  "= FizzBuzz" )
